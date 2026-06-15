@@ -20,7 +20,6 @@ wine-quality-classification/
 │
 ├── src/
 │   ├── preprocess.py             # Carregamento, limpeza e feature engineering
-│   └── train_evaluate.py         # Treinamento, avaliação e geração de gráficos
 │
 ├── results/                      # Gráficos e métricas gerados automaticamente
 ├── requirements.txt
@@ -32,26 +31,14 @@ wine-quality-classification/
 
 [Wine Quality Dataset – Kaggle](https://www.kaggle.com/datasets/yasserh/wine-quality-dataset)
 
-
 ### Como rodar o pipeline completo (scripts)
 ```bash
 pip install -r requirements.txt
 ```
 
 ```bash
-cd .\src\
-python train_evaluate.py --data-dir ../data --results-dir ../results
+jupyter notebook notebooks/wine_quality_analysis.ipynb
 ```
-
-## Modelos Treinados
-
-| Modelo | Vantagem |
-|---|---|
-| Logistic Regression | Baseline linear, alta interpretabilidade |
-| Random Forest | Robusto a outliers, importância de features nativa |
-| Gradient Boosting | Alta performance, captura relações não-lineares |
-
-Logistic Regression e Random Forest utilizam class_weight='balanced' para lidar com o desbalanceamento das classes. O Gradient Boosting foi avaliado como modelo adicional para capturar relações não lineares.
 
 ## GRUPO 102
 Amanda Cristine da Silva Gomes Queiroz
