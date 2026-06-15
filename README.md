@@ -43,12 +43,6 @@ cd .\src\
 python train_evaluate.py --data-dir ../data --results-dir ../results
 ```
 
-```bash
-cd ..
-jupyter notebook notebooks/wine_quality_analysis.ipynb
-```
-Click on 'Run' > 'Restart Kernel and Run All Cells...'
-
 ## Modelos Treinados
 
 | Modelo | Vantagem |
