@@ -1,13 +1,3 @@
-"""
-src/train_evaluate.py
-Treinamento e avaliação dos modelos de classificação de qualidade de vinho.
-Dataset: WineQT.csv
-
-Uso:
-    python src/train_evaluate.py
-    python src/train_evaluate.py --data-dir ../data --results-dir ../results
-"""
-
 import os
 import argparse
 
@@ -37,11 +27,6 @@ RANDOM_STATE = 42
 
 
 def build_models() -> dict:
-    """
-    Três modelos em Pipeline (StandardScaler + classificador).
-    class_weight='balanced' compensa o desbalanceamento acentuado do WineQT
-    (~86% Baixa/Média vs ~14% Alta qualidade).
-    """
     return {
         "Logistic Regression": Pipeline([
             ("scaler", StandardScaler()),

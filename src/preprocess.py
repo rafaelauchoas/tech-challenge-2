@@ -1,9 +1,3 @@
-"""
-src/preprocess.py
-Funções de pré-processamento para o pipeline de classificação de vinho.
-Dataset: WineQT.csv (vinho tinto, separador vírgula, coluna Id a descartar)
-"""
-
 import os
 import pandas as pd
 import numpy as np
