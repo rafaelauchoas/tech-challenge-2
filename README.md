@@ -61,7 +61,11 @@ Todos os modelos usam `class_weight='balanced'` para lidar com o desbalanceament
 
 ## GRUPO 102
 Amanda Cristine da Silva Gomes Queiroz
+
 João Paulo Viana Melo
+
 Kethellen Santana Da Silva
+
 Gabrielle Tainá Inácio Oliveira
+
 Rafaela Uchôas
