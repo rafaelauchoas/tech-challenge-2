@@ -57,7 +57,7 @@ Click on 'Run' > 'Restart Kernel and Run All Cells...'
 | Random Forest | Robusto a outliers, importância de features nativa |
 | Gradient Boosting | Alta performance, captura relações não-lineares |
 
-Todos os modelos usam `class_weight='balanced'` para lidar com o desbalanceamento das classes.
+Logistic Regression e Random Forest utilizam class_weight='balanced' para lidar com o desbalanceamento das classes. O Gradient Boosting foi avaliado como modelo adicional para capturar relações não lineares.
 
 ## GRUPO 102
 Amanda Cristine da Silva Gomes Queiroz
